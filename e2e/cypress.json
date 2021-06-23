@@ -1,0 +1,35 @@
+{
+  "fileServerFolder": ".",
+  "fixturesFolder": "./src/fixtures",
+  "integrationFolder": "./src/integration",
+  "pluginsFile": "./src/plugins/index.js",
+  "supportFile": "./src/support/index.ts",
+  "video": true,
+  "videosFolder": "../dist/cypress/main-e2e/videos",
+  "screenshotsFolder": "../dist/cypress/main-e2e/screenshots",
+  "chromeWebSecurity": false,
+  "viewportWidth": 1400,
+  "viewportHeight": 800,
+  "defaultCommandTimeout": 20000,
+
+  "env": {
+    "test-env": "qa",
+
+    "settings-front": {
+      "root": "https://login.front-cluster.d.lytho.land",
+      "realm": "front",
+      "username": "servicedesk@lytho.com",
+      "password": "Blo7fHen9",
+      "client_id": "baker-app",
+      "redirect_uri": "https://front.front-cluster.d.lytho.land"
+    },
+    "settings-qa": {
+      "root": "https://login.qa.lytho.in",
+      "realm": "sabern",
+      "username": "servicedesk@lytho.com",
+      "password": "Blo7fHen9",
+      "client_id": "baker-app",
+      "redirect_uri": "https://sabern.qa.lytho.in"
+    }
+  }
+}

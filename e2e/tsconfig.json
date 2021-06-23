@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "types": [
+      "cypress",
+      "node",
+      "./src/support"
+    ]
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.d.ts"
+  ]
+}
